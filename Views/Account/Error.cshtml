@@ -1,0 +1,17 @@
+﻿@model BeanAndBrew.Models.AccountModel
+
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Error</h2>
+
+<div>
+    <hr /><br />
+    <p>An unforeseen error has occurred on the website. Please try again later!</p><br />
+    <hr />
+    <p>
+        @Html.ActionLink("Back", "Register")
+    </p>
+</div>

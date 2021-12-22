@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeanAndBrew", "BeanAndBrew.csproj", "{47BC377B-435F-47DB-8F49-AA7F41A4E420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47BC377B-435F-47DB-8F49-AA7F41A4E420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BC377B-435F-47DB-8F49-AA7F41A4E420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BC377B-435F-47DB-8F49-AA7F41A4E420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BC377B-435F-47DB-8F49-AA7F41A4E420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E648173-E56C-4F55-8FE8-4EF02797C8EA}
+	EndGlobalSection
+EndGlobal

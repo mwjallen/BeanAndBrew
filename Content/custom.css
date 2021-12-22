@@ -1,0 +1,35 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+
+.content-grid {
+    display: grid;
+    width:100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "shoptext shopimage";
+    gap:1.5em;
+}
+
+.shoptext{
+    grid-area: shoptext;
+}
+
+.shopimage{
+    grid-area: shopimage;
+}
+
+.jumbotron{
+    padding-top: 0;
+    background-color:#ffffff !important;
+    text-align:justify;
+}
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:300px;
+}
