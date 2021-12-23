@@ -121,10 +121,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CoffeeController.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Data\AccountDAO.cs" />
     <Compile Include="Data\CoffeeDAO.cs" />
+    <Compile Include="Data\CourseDAO.cs" />
     <Compile Include="Data\OrderDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -132,6 +134,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\CoffeeViewModel.cs" />
+    <Compile Include="Models\CourseModel.cs" />
     <Compile Include="Models\OrderModel.cs" />
     <Compile Include="Models\TableBooking.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
@@ -491,6 +494,8 @@
     <Content Include="Views\Order\Confirmation.cshtml" />
     <Content Include="Views\Coffee\Order.cshtml" />
     <Content Include="Views\OnlineBooking\Index.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Course\Details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
