@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BeanAndBrew.Models.ShopModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Our shops and locations - you can book a table here!</h2><br />
+
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ShopName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfTables)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShopName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoOfTables)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.ShopId }) |
+            @Html.ActionLink("Book", "Book", new { id=item.ShopId })
+        </td>
+    </tr>
+}
+
+</table>
